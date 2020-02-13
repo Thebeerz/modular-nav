@@ -31,8 +31,6 @@ body {
 
 header {
   background-color: #e2e2e2;
-  /* text-align: left; */
-
 }
 
 li {
@@ -58,4 +56,12 @@ a:focus {
   border: solid .5em #0074d9;
   background-color: #0074d9;
   color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav {
+    text-align: left;
+  }
+
 }
